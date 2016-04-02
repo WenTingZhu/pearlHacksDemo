@@ -4,4 +4,21 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    div#bodyContainer
+      div#header.wrap
+        div#title.test
+          h1#name Safiyah Sadiq
+          h4#jobTitle Software Developer | Capital One
+          h6#email Safiyah.Sadiq@capitalone.com
+          h6#number 555-555-5555
+      div#navigation.wrap
+        div#home.nav.test
+          a(href='/') Home
+        div#resume.nav.test
+          a(href='/resume') Resume
+        div#projects.nav.test
+          a(href='/project') Projects
+        div#contact.nav.test
+          a(href='/contact') Contact
+      div#restOfBody
+        block content

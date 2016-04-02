@@ -1,7 +1,96 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(234, 229, 229, 1);
+  color: rgb(96, 96, 96);
 }
+
+#bodyContainer {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
 a {
-  color: #00b7ff;
+  color: #FF7182;
+}
+
+h1{
+  font: normal normal bold 43px/1.2em 'Noticia Text',serif
+}
+
+#name{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#jobTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#email {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#number {
+  margin-top: 0px;
+}
+
+#header {
+  max-height: 140px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+#navigation {
+  float:right;
+}
+
+#navigation {
+  color: #FF7182;
+  overflow: visible;
+  height: 14px;
+  list-style-type: none;
+  margin: 15px;
+  bottom: 0;
+  right: 0;
+}
+
+.wrap {
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-right: 50px;
+
+  .test {
+    width: auto;
+    display: block;
+    vertical-align: text-top;
+    margin-bottom: 5px;
+  }
+}
+
+.nav {
+  height: auto;
+  float: left;
+  margin-top: 10px;
+  margin-right: 50px;
+
+  a{
+    width: auto;
+    display: block;
+    vertical-align: text-top;
+    margin-bottom: 5px;
+  }
+}
+
+.input {
+  margin: 5px;
+  border: white;
+}
+
+#restOfBody {
+  clear: left;
 }

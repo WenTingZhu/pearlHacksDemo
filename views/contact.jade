@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Contact
+  form(name="contact", method="post" action="/contact")
+    div.input
+      input(type="text", name="name", placeholder="Name")
+    div.input
+      input(type="text", name="email", placeholder="Email")
+    div.input
+      input(type="text", name="subject", placeholder="Subject")
+    div.input
+      textarea(name="message", placeholder="Message")
+    div.actions
+      input(type="submit", value="Submit")
